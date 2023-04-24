@@ -1,0 +1,438 @@
+  @import url("https://use.typekit.net/ggr0oqv.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@200&family=Playfair+Display&display=swap');
+
+body{
+    background-color: white;  
+}
+
+
+
+header.homepageheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #293241;
+  padding: 20px;
+  font-family: "futura-pt-bold", sans-serif;
+font-weight: 700;
+font-style: normal
+}
+
+.image-container {
+    margin-bottom: -25px;
+}
+
+.homepage-hello {
+    color: #293241;
+}
+
+.projectheading {
+    color: #3d5a80;
+}
+
+header.otherheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  font-family: "futura-pt-bold", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+header img {
+  width: 15%; 
+}
+
+nav.homepagebutton a{
+    color: white;
+    font-family: "futura-pt-bold", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+a.navbutton{
+  color: #293241;
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+a.navbutton:hover {
+    text-decoration: underline;
+    color: #98c1d9;
+}
+
+a.navbutton.active {
+  color: #98c1d9;
+  text-decoration: underline;
+}
+
+/*
+nav a{
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+*/
+
+main.homepagemain{
+    background-image: url(images/ChoiA_Homepage_Background.jpeg);
+    margin: 0;
+}
+
+main{
+    max-width: 3000px;
+    margin: 0px auto;
+    background-color:#98c1d9;
+    padding: 25px;
+    overflow: auto;
+    
+}
+
+.aboutmain{
+    max-width: 3000px;
+    background-color: #98c1d9;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+#portfolioleft{
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    margin-left: -20px;
+}
+
+#portfoliocenter{
+    width: 500px;
+    float: left;
+    margin-left: -20px;
+    margin-right: 50px;
+}
+
+#portfolioright{
+     width: 500px;
+    float: left;
+    margin-left: -20px;
+}
+
+.image-container,
+.video-container {
+  display: block;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 840px; /* Set a maximum width if needed */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.my-video {
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 840px; /* Set a maximum width if needed */
+  height: auto; /* Maintains the aspect ratio */
+
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Add a drop shadow */
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prev-button,
+.next-button {
+  background-color: #3d5a80; /* Adjust the background color as needed */
+  color: white; /* Adjust the text color as needed */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: "futura-pt", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #e0e0e0; /* Adjust the hover background color as needed */
+  color: #000; /* Adjust the hover text color as needed */
+}
+
+.contact-info p {
+  line-height: 2; /* Adjust this value to control the line spacing */
+}
+
+#contactleft{
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: #98c1d9;
+    text-align: right;
+}
+
+.contact-box {
+  background-color: #009ade;
+  width: 40%;
+  min-width: 380px;
+  padding: 35px;
+  float:left;
+  height: 900px; 
+  margin: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  font-family: 'Playfair Display', serif;
+  
+
+  
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Playfair Display', serif;
+}
+
+input[type="submit"] {
+  background-color: #293241;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "futura-pt-bold", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #3d5a80;
+}
+
+.portfolioimg {
+  margin: 0 auto;
+}
+
+.portfolioimg a {
+  width: 500px;
+  display:inline-grid;
+  margin: 5%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.portfolioimg a img {
+  width: 100%;
+  height: auto;
+}
+
+
+.portfolioview img {
+  width: 50%;
+  height: auto;
+    margin-bottom: 10px;
+  
+}
+
+.hover-text {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.portfolioimg a:hover .hover-text {
+  display: flex;
+  opacity: 1;
+}
+
+.myphoto {
+    width: 200px;
+    height: auto;
+    float:left;
+    margin-right: 10px;
+}
+
+div.homepage-info {
+    display: flex;
+    align-items: center;
+}
+
+div.homepage-info img {
+    margin-right: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size:150px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: -10px;
+}
+
+h2{
+    margin-top: -90px;
+    text-align: left;
+    font-family: "futura-pt-bold", sans-serif;
+}
+
+h3 {
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contact-heading{
+    font-size: 40px;
+    color: #3d5a80;
+    
+}
+
+.projectheading {
+    font-size: 40px;
+    margin-left: 5px;
+    
+}
+
+
+
+.contact-subtitle {
+    margin-bottom: 40px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.aboutMe{
+    font-size: 50px;
+    margin-left: 0px;
+    text-align: left;
+    color: #3d5a80;
+    
+}
+
+.abouth2 {
+  margin-top: 40px;
+  text-align: left;  
+  color: #3d5a80;
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.skills{
+    float: left;
+    width: 40%;
+    margin: 0;
+    
+}
+
+.skillsh2 {
+     margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.projectdescription{
+    margin-top: 100px;
+    color:
+}
+
+.educationcontaner{
+    width: 50%;
+    margin: 0;
+    float: left;
+    margin-right: 80px;
+}
+
+.contactformheading{
+    margin-top: 0px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+      
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.aboutparagraph {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+ul {
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+footer{
+  font-family: 'Playfair Display', serif;
+    margin-left:  20px;
+
+
+}
+
+ion-icon[name="logo-linkedin"] {
+  color: #006fdd;
+  font-size: 2em;
+}
+ion-icon[name="logo-instagram"] {
+  color: #006fdd;
+  font-size: 2em;
+}
